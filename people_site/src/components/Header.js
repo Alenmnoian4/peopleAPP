@@ -1,5 +1,13 @@
-function Component(props) {
-    return <h1>Component Name </h1>;
+import { Link } from "react-router-dom";
+
+function Header(prop) {
+    return (
+        <nav className="nav">
+            <Link to="/">
+                <div>People App</div>
+            </Link>
+        </nav>
+    );
 }
 
-export default Component;
+export default Header;

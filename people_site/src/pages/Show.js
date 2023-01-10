@@ -1,5 +1,5 @@
 function Component(props) {
-    return <h1>Component Name </h1>;
+    return <h1>Page Name (Show)</h1>;
 }
 
 export default Component;
