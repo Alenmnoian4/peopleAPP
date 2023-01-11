@@ -1,4 +1,4 @@
-const URL = 'https://people-api-wu4g.onrender.com';
+const URL = 'https://peoplesite.onrender.com';
 
 export const peopleLoader = async () => {
     const response = await fetch(URL + "/people");

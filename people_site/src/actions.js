@@ -1,10 +1,10 @@
 import { redirect } from "react-router-dom";
 
-const URL = "https://people-api-wu4g.onrender.com";
+const URL = "https://peoplesite.onrender.com";
 
 export const createAction = async ({ request }) => {
     const formData = await request.formData();
-console.log(formData)
+
     const newPerson = {
         name: formData.get("name"),
         image: formData.get("image"),
